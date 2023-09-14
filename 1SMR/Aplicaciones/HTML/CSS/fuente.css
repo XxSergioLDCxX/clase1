@@ -1,0 +1,10 @@
+body {
+	color: red; background-color: silver; font-family:arial;}
+h1 {
+	color: white; word-spacing: 30px; font-family: "Comic Sans Ms";}
+h3 {
+	font-style: italic; text-transform: Lowercase; font-family: Tahoma;}
+p {
+	text-aling: center; width: 250px; background-color: olive}
+ul {
+	width: 200px; background-color: purple;}

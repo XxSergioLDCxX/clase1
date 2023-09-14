@@ -1,0 +1,31 @@
+#contenido {
+  width: 700px;
+  margin-left: 550px;
+  margin-right: 400px;
+  color: #fff;
+}
+#enlaces {
+	background: #00A2FF;
+	height: 40px;
+}
+#desarollado {
+  float: left;
+  width: 550px;
+  height:700px;
+  background: #7367E8;
+}
+#relacionados {
+  float: left;
+  width: 150px;
+  height:700px;
+  background: #5B4BF0;
+}
+#pie {
+  clear: both;
+  background: #17105A;
+  color: #fff;
+}
+table{
+	font-color: #fff;
+	font-size: 30px
+}

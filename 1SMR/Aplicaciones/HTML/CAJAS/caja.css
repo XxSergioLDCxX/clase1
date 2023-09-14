@@ -1,0 +1,36 @@
+h1 {
+	border-style: solid;
+	background-color: pink;
+	text-align: center;
+	padding: 50px;
+	width: 100px;
+
+}
+h2 {
+	border-style: solid;
+	background-color: pink;
+	text-align: center;
+	padding: 50px;
+	width: 100px;
+
+}
+h3 {
+	border-style: solid;
+	background-color: pink;
+	text-align: center;
+	padding: 50px;
+	width: 100px;
+
+}
+h4 {
+	float: left;
+	border-style: solid;
+	background-color: pink;
+	text-align: center;
+	padding: 50px;
+	width: 100px;
+
+}
+h5 {
+	clear: left;
+}

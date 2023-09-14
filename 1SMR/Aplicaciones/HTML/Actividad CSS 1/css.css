@@ -1,0 +1,15 @@
+body {
+	color: #00F; background-color: #CFC; font-family: Georgia; margin-left: 200px;
+}
+h1 {
+	color: #F00; font-family: Verdana; margin-right: 300px; padding: 5px; border: 5px solid red;
+}
+h2 {
+	color: #A00; font-family: Calibri; margin-right: 300px; text-align: right;
+}
+p {
+	padding-bottom: 10px; padding-top: 10px; border: 10px solid blue; 
+}
+li {
+	border: 0.5px solid aqua; padding: 5px;
+}

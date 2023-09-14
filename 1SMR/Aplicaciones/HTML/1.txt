@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+	<title> Formulario de prueba </title>
+    </head>
+	<body>
+
+	<h1 align="center">Suscripcion a nuestro boletin</h1>
+	
+	<fieldset>
+	
+	<legend>Datos de acceso*</legend>
+
+	</body>
+ </html>	

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="STYLESHEET" type="text/css" href="2.css">
+
+</head>
+
+<body>
+
+	<div id="contenido">
+		<div id="secundario">
+		Columna de la izquierda.Columna de la izquierda.
+		Columna de la izquierda.Columna de la izquierda.
+		</div>
+	
+		<div id="principal">
+		Contenido principal.Contenido principal.
+		Contenido principal.Contenido principal.
+		</div>
+	</div>
+	
+
+</body>
+
+</html>
