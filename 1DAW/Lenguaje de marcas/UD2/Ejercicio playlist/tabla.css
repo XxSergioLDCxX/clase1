@@ -1,0 +1,21 @@
+img{
+    width: 28%;
+    height: 28%;
+}
+table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+td, th{
+    padding-left: 25px;
+    border: collapse;
+    padding-left: 2px;
+    padding-right: 25px;
+}
+th{
+    background-color: rgb(73, 69, 69);
+}
+#pie{
+    text-align: center;
+    background-color: rgb(172, 160, 160);
+}

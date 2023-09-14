@@ -1,0 +1,42 @@
+<?xml version="1.0">
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+	<bajas>
+	
+		<empleado id="1">
+		
+			<nombre>Lucia Perez gomez</nombre>
+			<direccion>C/Leal Nº5 </direccion>
+			<ocupacion>Ingeniera de Software</ocupacion>
+			<razon>Maternidad</razon>
+		
+		</empleado>
+	
+		<empleado id="2">
+		
+			<nombre>Andrés Jiménez Roncero</nombre>
+			<direccion>C/Bautista Nº1 </direccion>
+			<ocupacion>Mantenimiento</ocupacion>
+			<razon>Covid-19</razon>
+		
+		</empleado>
+	
+		<empleado id="1">
+		
+			<nombre>Manuel López Amante</nombre>
+			<direccion>C/Avenida Nº32</direccion>
+			<ocupacion>Administrador de BBDD</ocupacion>
+			<razon>Enfermedad</razon>
+		
+		</empleado>
+	
+		<empleado id="1">
+		
+			<nombre>Estefanía Rodríguez Beato</nombre>
+			<direccion>C/Los Pinos Nº21</direccion>
+			<ocupacion>Ingeniera de Sistemas Informáticos</ocupacion>
+			<razon>Enfermedad</razon>
+		
+		</empleado>
+	
+	</bajas>

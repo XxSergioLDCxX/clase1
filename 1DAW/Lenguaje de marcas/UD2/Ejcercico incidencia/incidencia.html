@@ -1,0 +1,38 @@
+<!doctype html>
+    <html lang="es">
+        <head> 
+            <meta charset="UTF-8">
+            <title>Formulario de incidencia</title>
+        </head>
+        <body>
+
+            <fieldset>
+
+                <p>D./Dª:</p>
+                <input type="text" required id="name"/>
+                <p>Tipo de incidencia</p>
+                <select name="Incidencia" id="tipo">
+
+                    <option value="mucho">He tardado mucho en ser atendido</option>
+                    <option value="pesimo">Pesimo servicio</option>
+                    <option value="maltrato">Trato malo de parte de los empleados</option>
+
+                </select>
+                
+                <br>
+                <p>Descripcion</p>
+                <textarea name="resumen" id="resume">Describa la incidencia...</textarea>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Botones de reset y envio</legend>
+
+                <input type="reset" value="Resetear"/>
+                <input type="submit" value="Enviar">
+
+
+            </fieldset>
+
+        </body>
+    </html>

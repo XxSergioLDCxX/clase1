@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="UTF-8">
+	    <title>Suscripcion a un boletin de noticias </title>
+		<style type="text/css">
+			
+			.yegua{
+				padding: 10px;
+				margin: 0 auto;
+				display: block;
+			}
+			
+			.bloque{
+				background-color: aliceblue;
+				margin: 0 auto;
+				margin-left: 100px;
+				margin-right: 100px;
+				margin-bottom: 5px;
+				border-radius: 5px;
+				text-align: center;
+			
+			}
+			
+			.bloque img{
+				width: 300px;
+				height: 200px;
+				padding: 50px;
+			}
+
+			.bloque table{
+				margin: auto;
+			}
+			input{
+				background-color: #706e6e;
+				margin: 10px;
+
+			}
+			
+			
+			textarea{
+				background-color: #8f8f8f;
+				resize:none;
+				width: 300px;
+				height: 50px;
+			}
+			.input {
+ 			line-height: 28px;
+		 	border: 2px solid transparent;
+ 			border-bottom-color: #777;
+ 			padding: .2rem 0;
+			outline: none;
+ 			background-color: transparent;
+ 			color: #0d0c22;
+ 			transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+			
+			
+			}
+
+			.input:focus, input:hover {
+ 			outline: none;
+			padding: .2rem 1rem;
+			border-radius: 1rem;
+ 			border-color: #7a9cc6;
+			}
+
+			.input::placeholder {
+ 			color: #777;
+			}
+
+			.input:focus::placeholder {
+ 			opacity: 0;
+ 			transition: opacity .3s;
+			}
+
+			select {
+	
+    		appearance: none;
+    		padding: 15px 20px;
+    		-webkit-border-radius: 150px;
+    		-moz-border-radius: 150px;
+    		border-radius: 150px;
+    		border: 1px solid rgb(83, 85, 83);
+    		background-color: rgb(71, 77, 71);
+    		color: #ffffff;
+    		font-size: 18px;
+			margin-bottom: 10px;
+			}
+ 
+			select:focus {
+    		outline: none;
+			}
+		
+		</style>
+    </head>
+	
+	
+	<body style="background-color:#aeaeae" >
+
+	<h1 align="center">Suscripcion a nuestro boletin</h1>
+	
+	<div class="bloque">
+		<h2>Datos de acceso</h2>
+			<p>
+	
+				<input placeholder="Nombre*" type="text" class="input" required="">
+				<input placeholder="Apellidos*" type="text" class="input" required="">
+				<input placeholder="Correo*" type="email" class="input" required="">
+				<input placeholder="Contrseña*" type="password" class="input" required="">
+				<br/>
+			</p>
+	</div>
+	
+	<div class="bloque">
+		<b>Informacion adicional</b>
+		<table width="1000">
+			<tr>
+				<td>
+					<p><b>Sexo*</b><br>
+					<input type="radio" name="Sexo" required>Hombre<br>
+					<input type="radio" name="Sexo" required>Mujer<br></p>
+				</td>
+		
+				<td>
+					<p><b> Nivel de estudios</b><br>
+					<input checked type="radio" name="estudios">Certificado escolar<br>
+					<input type="radio" name="estudios">Graduado ESO<br>
+					<input type="radio" name="estudios">Bachiller-Formacion Profesional<br>
+					<input type="radio" name="estudios">Diplomado<br>
+					<input type="radio" name="estudios">Licenciado o doctorado<br></p>
+				</td>
+
+				<td>
+
+					<p><b>Interesado en los siguientes temas</b><br>
+					<input type="checkbox" name="musica">Musica<br>
+					<input type="checkbox" name="deportes">Deportes<br>
+					<input type="checkbox" name="cine">Cine<br>
+					<input type="checkbox" name="libros">Libros<br>
+					<input type="checkbox" name="ciencia">Ciencia<br></p>
+				</td>
+
+		</table>
+		<h4>Tdos los campos con un '*' deben ser rellenados obligatoriamente</h5>
+	</div>
+
+	<div class="bloque">
+		<h3>Dia de la semana que le interesa recibirlo*</h3>
+
+		<div>
+			<select name="semana">
+		
+				<option value="lunes">Lunes
+				<option value="martes">Martes
+				<option value="miercoles">Miercoles
+				<option value="jueves">Jueves
+				<option value="viernes">Viernes
+				<option value="sabado">Sabado
+				<option value="domingo">Domingo	
+	
+			</select>
+		</div>
+	</div>
+
+	<div class="bloque">
+		<h3>Enlaces relacionados</h3>
+
+		<a href="https://www.marca.com/futbol/real-madrid/2022/10/26/63585ea722601d49308b4580.html">
+			<img src="data:image/png;base64,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"/>
+		</a>
+
+		<a href="https://www.abc.es/">
+			<img src="data:image/png;base64,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"/>
+		</a>
+
+		<a href="https://www.elmundo.es/papel/historias/2022/10/25/6358057cfc6c83a4288b45c2.html">
+			<img src="https://e00-elmundo.uecdn.es/assets/v20/img/destacadas/elmundo__logo-generica.jpg">
+		</a>
+		<p><h4>Haga click en una imagen para acceder a los distintos sitios web*</h4></p>
+	</div>
+
+	<div class="bloque">
+		<h3>Observaciones</h3>
+		<textarea>Comentario:</textarea>
+		<br>
+		<div class="bloque-boton"><input type="button" name="enviar" value="Enviar" > <input type="reset" name="limpiar" value="limpiar"></div>
+	</div>
+	<img src="https://static.eldiario.es/clip/71d118ff-5ef2-449c-be8a-6c321304fa70_16-9-aspect-ratio_default_0.jpg" class="yegua">
+	</body>
+ </html>	

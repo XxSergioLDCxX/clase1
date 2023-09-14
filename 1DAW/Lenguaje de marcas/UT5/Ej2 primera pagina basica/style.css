@@ -1,0 +1,16 @@
+header {
+    background-color: rgb(182, 179, 179);
+    height: 100px;
+}
+header h1{
+padding-left: 40%;
+
+}
+header nav ul li{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: green;
+}

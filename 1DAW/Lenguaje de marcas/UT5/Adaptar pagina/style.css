@@ -1,0 +1,90 @@
+.yegua{
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.bloque{
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.bloque img{
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+}
+
+.bloque table{
+    margin: auto;
+}
+input{
+    background-color: #706e6e;
+    margin: 10px;
+
+}
+
+
+textarea{
+    background-color: #8f8f8f;
+    resize:none;
+    width: 300px;
+    height: 50px;
+}
+.input {
+ line-height: 28px;
+ border: 2px solid transparent;
+ border-bottom-color: #777;
+ padding: .2rem 0;
+outline: none;
+ background-color: transparent;
+ color: #0d0c22;
+ transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+
+}
+
+.input:focus, input:hover {
+ outline: none;
+padding: .2rem 1rem;
+border-radius: 1rem;
+ border-color: #7a9cc6;
+}
+
+.input::placeholder {
+ color: #777;
+}
+
+.input:focus::placeholder {
+ opacity: 0;
+ transition: opacity .3s;
+}
+
+select {
+
+appearance: none;
+padding: 15px 20px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+border-radius: 150px;
+border: 1px solid rgb(83, 85, 83);
+background-color: rgb(71, 77, 71);
+color: #ffffff;
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+select:focus {
+outline: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}

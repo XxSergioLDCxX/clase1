@@ -1,0 +1,54 @@
+<?xml version="1.0">
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+	<biblioteca>
+		<libro>
+		
+			<autor>Miguel de Cervantes</autor>
+			
+			<titulo>Don Quijote de la Mancha</titulo>
+			
+			<ISBN>9780936388878</ISBN>
+			
+		</libro>
+		
+		<libro>
+		
+			<autor>Louis-Ferdinand Cèline</autor>
+			
+			<titulo>Viaje al fin de la noche </titulo>
+			
+			<ISBN>9788435018968</ISBN>
+			
+		</libro>
+		
+		<libro>
+		
+			<autor>Laura Gallego García </autor>
+			
+			<titulo>El Valle de los Lobos</titulo>
+			
+			<ISBN>9788467539677</ISBN>
+			
+		</libro>
+		
+		<libro>
+		
+			<autor>J.K. Rowling</autor>
+			
+			<titulo>Harry Potter y la Piedra Filosofal</titulo>
+			
+			<ISBN>8478884459</ISBN>
+			
+		</libro>
+		
+		<libro>
+		
+			<autor>George R. R. Martin</autor>
+			
+			<titulo>Juego de Tronos: Canción de hielo y fuego 1.</titulo>
+			
+			<ISBN>8496208915</ISBN>
+			
+		</libro>
+	</biblioteca>

@@ -1,0 +1,52 @@
+body{
+    background-color:  #f2f2f2;
+}
+nav{
+    width: 100%;
+    height: 40px;
+  float: left;
+}
+
+nav ul li {
+    float: left;
+  list-style-type: none;
+  text-align: left;
+  padding:2px;
+}
+
+section{
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+aside{
+    width: 25%;
+    float: left;
+}
+footer{
+    clear: both;
+}
+footer p{
+    background-color: palegoldenrod;
+}
+footer p.pie{
+    background-color: lightgray;
+}
+
+.titulo{
+
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+}
+
+header{
+    background-color: lightblue;
+    text-align: center;
+    color: blue;
+    height: 80px;
+}
+.cont{
+    background-color: blanchedalmond;
+    display: flex;
+}
