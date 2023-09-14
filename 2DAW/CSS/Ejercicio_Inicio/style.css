@@ -1,0 +1,49 @@
+body{
+    background-color: lightgray;
+}
+
+header{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    border-radius: 0.5cm;
+    
+    
+}
+
+header a{
+    color:darkgray;
+    font-size: large;
+    cursor: text;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.fondo{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 0.5cm;
+    padding-left: 10px;
+}
+main section h2{
+
+    font-size: large;
+}
+
+footer{
+    background-color: #292929;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 0.5cm;
+    
+}
+footer p {
+    padding: 30px;
+}
