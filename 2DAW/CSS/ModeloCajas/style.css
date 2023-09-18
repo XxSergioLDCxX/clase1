@@ -1,0 +1,31 @@
+.c1{
+    background-color: black;
+    margin: 0%;
+    padding: 1px; /* Añade relleno para dar espacio al contenido interno */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Establece el ancho al 100% del viewport (ventana del navegador) */
+  height: 100vh;
+}
+.c2{
+    background-color: blue;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    display: flex;
+}
+.c3{
+    background-color: red;
+    width: 700px;
+    height: 700px;
+    
+    
+}
+.c4{
+    background-color: yellow;
+    width: 600px;
+    height: 600px;
+    margin: 5%;
+    display: flex;
+}
