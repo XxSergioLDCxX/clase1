@@ -9,7 +9,7 @@ $pista = generarPista($pista);
 while ($win == 0) {
     
     //dar golpe
-    $golpe = rand(0,7);
+    $golpe = rand(0,6);
 
     //comprobar mosca
 
@@ -19,7 +19,7 @@ while ($win == 0) {
     }
     
 };
-var_dump($pista);
+ //var_dump($pista);
 echo('ganaste');
 
 
