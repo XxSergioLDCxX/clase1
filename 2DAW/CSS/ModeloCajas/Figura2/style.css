@@ -14,11 +14,13 @@
     height: 90%;
     margin: 5%;
     display: flex;
+    padding-top: 1%;
 }
 .c3{
     background-color: red;
     width: 600px;
     height: 600px;
+    margin-left: 1%;
     
     
 }

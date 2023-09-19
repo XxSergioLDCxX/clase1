@@ -24,9 +24,9 @@
 }
 .c4{
     background-color: yellow;
-    width: 500px;
-    height: 500px;
-    margin: 5%;
+    width: 600px;
+    height: 600px;
+    
     justify-content: center;
     align-items: center;
     display: flex;
