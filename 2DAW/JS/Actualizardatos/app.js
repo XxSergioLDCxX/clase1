@@ -1,6 +1,5 @@
 function obtenerValor() {
-    var input = document.getElementById('miInput');
-    var valor = input.value;
+    var input = document.getElementById('miInput').value;
     
 
     var input2 = document.getElementById('miInput2');
