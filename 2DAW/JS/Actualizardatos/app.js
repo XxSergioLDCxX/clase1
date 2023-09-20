@@ -1,13 +1,43 @@
+var persona = {
+    nombre : '',
+    apellido : '',
+    correo : '',
+    dni : '',
+    asignaturas : ['DWC','DWS','...']
+}
+
 function obtenerValor() {
-    var input = document.getElementById('miInput');
-    var valor = input.value; 
+    const valor = document.getElementById('miInput').value
+    const valor2 = document.getElementById('miInput2').value
+    
+    if (valor2 == 'hola123') {
+        
+        alert("Has iniciado sesion correctamente")
+        window.location.href = "datos.html";
+    }else{
+        alert("Contraseña incorrecta")
+    }
+
+}
+
+function guardarDatos(){
+
+    const nombre = document.getElementById('nombre').value
+    const apellido = document.getElementById('apellido').value
+    const correo = document.getElementById('correo').value
+    const dni = document.getElementById('dni').value
+
+    persona.nombre =nombre
+    persona.apellido = apellido
+    persona.correo = correo
+    persona.dni = dni
+
     
 
-    var input2 = document.getElementById('miInput2');
-    var valor2 = input2.value;
-    
-    
-    alert("El valor del input es: " + valor + valor2);
+}
 
 
+function mostrarPersona(){
+
+    console.log(persona)
 }
