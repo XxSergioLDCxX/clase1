@@ -14,7 +14,7 @@ function generarPista(&$pista){
 }
 
 
-//Generar posicion donde se va a dar el golpe y comprobar si la mosca esta ahi o cerca---
+//Generar posicion donde se va a dar el golpe y comprobar si la mosca esta ahi o cerca
 function darGolpe($golpe, $pista, &$win){
 
     if ($pista[$golpe] != 0){
