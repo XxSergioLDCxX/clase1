@@ -1,8 +1,27 @@
 <?php
+require_once 'Animales.php';
+require_once 'Perro.php';
+require_once 'Gato.php';
+require_once 'Elefante.php';
+
+header("Content-Type:application/json");
+
+$requestMethod = $_SERVER["REQUEST_METHOD"];
+
+if ($requestMethod == 'GET') {
+   
+    header("HTTP/1.1 200 Todo ok");
+
+    //ejercicio entero
+    
+        //Creacion de los objetos
 $perro = new Perro("Max", "Golden Retriever", 20, "Dorado");
 $gato = new Gato("Whiskers", "Siamese", 10, "Blanco");
 $elefante = new Elefante("Dumbo", "Africano", 5000, "Gris");
 
+//LLamada a los diferentes metodos
+
+//Perro
 $perro->vacunar();
 $perro->comer();
 $perro->dormir();
@@ -14,6 +33,7 @@ if ($perro->hacerCaso()) {
     echo "{$perro->getNombre()} no hace caso.\n";
 }
 
+//Gato
 $gato->vacunar();
 $gato->comer();
 $gato->dormir();
@@ -25,6 +45,14 @@ if ($gato->hacerCaso()) {
     echo "{$gato->getNombre()} no hace caso.\n";
 }
 
+//Elefante
 $elefante->comer();
 $elefante->dormir();
 $elefante->hacerRuido();
+
+}else {
+    
+    header("HTTP/1.1 405 Verbo no soportado");
+
+}
+
