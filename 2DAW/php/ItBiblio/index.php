@@ -1,4 +1,7 @@
 <?php
+require_once 'Libro.php';
+require_once  'Ficha.php';
+
 $libro = new Libro("L001", "El Gran Gatsby", "F. Scott Fitzgerald", "Editorial XYZ");
 $revista = new Revista("R001", "National Geographic", 123, 2023);
 $dvd = new DVD("D001", "Titanic", "James Cameron", 1997, "Película");
