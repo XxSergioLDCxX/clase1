@@ -4,13 +4,28 @@ require_once 'Rey.php';
 require_once 'Aldeano.php';
 require_once 'Mina.php';
 require_once 'Cura.php';
-// Crear civilizaciones
+
+$requestMethod = $_SERVER["REQUEST_METHOD"];
+$paths = $_SERVER['REQUEST_URI'];
+
+$total = $paths[1];
+
+
+
+if ($requestMethod == 'GET' || $requestMethod == 'POST') {
+    header("HTTP/1.1 200 Todo ok");
+    
+if ($requestMethod == 'GET') {
+        // Crear civilizaciones
 $espanoles = new Civilizacion("Españoles");
 $bizantinos = new Civilizacion("Bizantinos");
 
 // Crear reyes
 $isabelI = new Rey("Isabel I");
 $constantinoII = new Rey("Constantino II");
+}else{
+
+}
 
 // Crear aldeanos
 $aldeano1 = new Aldeano("Aldeano1", 200, $espanoles);
@@ -24,7 +39,7 @@ $minaPiedra = new Mina("PIEDRA", 300);
 $cura = new CuraBizantino();
 
 // Simulación del juego durante 1 minuto
-for ($segundos = 0; $segundos < 60; $segundos++) {
+for ($segundos = 0; $segundos < $total; $segundos++) {
     echo "Segundos: $segundos\n";
 
     // Cada segundo, los aldeanos extraen ítems de la mina
@@ -55,3 +70,6 @@ for ($segundos = 0; $segundos < 60; $segundos++) {
 // Ver el estado final del almacén de cada civilización
 echo "{$espanoles->getNombre()}: {$espanoles->getAlmacen()} ítems de {$minaOro->getTipo()} almacenados.\n";
 echo "{$bizantinos->getNombre()}: {$bizantinos->getAlmacen()} ítems de {$minaPiedra->getTipo()} almacenados.\n";
+}else {
+    header("HTTP/1.1 405 Verbo no soportado");
+}
