@@ -29,8 +29,8 @@ let hex = /^[0-9a-fA-F]+$/
 console.log(hex.test('123456789abcdefABCDEF'))
 
 //8)Realizar una expresión regular para validar un usuario de discord el formato que tiene que tener es un nombre que puede contener letras minúsculas y numero pero no _ con una longitud mínima de 5 y máximo 15. Una almohadilla y un número de longitud 6.
-let disc = /^[a-z]{5,15}[^_]#{1}[0-9]{6}+$/
-console.log(disc.test('holamuesto#123456'))
+let disc = /^[a-z0-9]{5,15}#\d{6}$/
+console.log(disc.test('abcdegtfo#123456'))
 
 // Ejemplos de datos para validar
 const numeros = ["12345", "-6789", "1234ABC", "12345678X", "010101", "567", "1A2B3C", "GHIJKL", "1F3aBc"];
