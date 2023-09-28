@@ -32,7 +32,25 @@ console.log(hex.test('123456789abcdefABCDEF'))
 let disc = /^[a-z0-9]{5,15}#\d{6}$/
 console.log(disc.test('abcdegtfo#123456'))
 
-// Ejemplos de datos para validar
-const numeros = ["12345", "-6789", "1234ABC", "12345678X", "010101", "567", "1A2B3C", "GHIJKL", "1F3aBc"];
+//9)Realizar un método js que reciba un String y mediante expresión regular comprobar que la primera letra sea mayúscula y tenga una longitud entre 3 y 20. Si la primera letra no es mayúscula devolver el string con la primera en mayus.
+function validarString(inputString) {
+    // Expresión regular para verificar si la primera letra es mayúscula
+    let regex = /^[A-Z]/;
+  
+    // Verificar si la primera letra es mayúscula
+    if (!regex.test(inputString)) {
+      // Si la primera letra no es mayúscula, convertirla a mayúscula
+      inputString = inputString.charAt(0).toUpperCase() + inputString.slice(1);
+    }
+  
+    // Verificar la longitud del string
+    if (inputString.length >= 3 && inputString.length <= 20) {
+      return inputString;
+    } else {
+      return "El string debe tener una longitud entre 3 y 20 caracteres.";
+    }
+  }
 
-// Validar y mostrar los resultados
+//10)Realizar una expresión que valide una fecha, pero con algunas excepciones, que los días y los meses sean correctos solo que este bien formado con el siguiente formato: dd/mm/aaaa
+let fecha =/^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/[1-9]{4}$/
+console.log(fecha.test('01/12/1999'))
