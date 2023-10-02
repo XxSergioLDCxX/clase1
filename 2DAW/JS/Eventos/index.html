@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Formulario IBAN y Tarjeta</title>
+    <meta charset="UTF-8">
+    
+
+</head>
+
+<body>
+
+    <h1>Formulario IBAN y Tarjeta</h1>
+
+    <h2>IBAN</h2>
+
+    <form>
+
+        <div>
+
+            <label for="iban_parte1">IBAN :</label>
+            <input type="text" id="ib1" name="ib1" maxlength="4" required>
+            <input type="text" id="ib2" name="ib2" maxlength="20" required>
+
+        </div>
+            
+    </form>
+
+    <h2>Tarjeta</h2>
+
+        <div>
+
+            <label for="numero_tarjeta">Número de Tarjeta (16 dígitos):</label>
+            <input type="text" id="ntarjeta" name="ntarjeta" required>
+
+        </div>
+
+
+        <div>
+
+            <label for="cvv">CVV (3 dígitos):</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+        </div>
+
+
+    <input type="button" value="Guardar" id="boton">
+    <script src="app.js"></script>
+</body>
+</html>
