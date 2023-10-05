@@ -1,8 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icons{
+    display: inline-block;
+    
+        padding-left: 97%;
+
+}
+.fa-solid{
+    font-size: 20px;
+    color: white;
+}
+a:visited {
+    color: white; /* Mismo color para los enlaces visitados */
+}
+
+.inicio{
+    height: 300px;
+}
+.cont-index {
+    display: flex; /* Usamos flexbox para controlar el diseño */
+    align-items: center; /* Centramos verticalmente los elementos */
+  }
+  
+.foto{
+    height: 600px;
+}
+.bienvenida{
+    font-size: 30px;
+    
+}
+
+  .imagen {
+    flex: 1; /* La imagen ocupa 1 parte del espacio disponible */
+  }
+  
+  .texto {
+    flex: 1; /* El texto ocupa 1 parte del espacio disponible */
+    text-align: right; /* Alineamos el texto a la derecha */
+  }
+
+
+
+
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
+    padding: 20px 0;
+
+    font-size: 20px;
 }
 
 nav ul {
@@ -15,33 +67,132 @@ nav li {
     margin-right: 20px;
 }
 
-/* Estilos para el contenedor */
-#contenedor {
-    text-align: center;
-    margin: 20px auto;
-    width: 80%;
-    border: 1px solid #ccc;
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    background-color: red;
-    
-    /* Utilizando flexbox para alinear verticalmente y expandir o encojer los divs */
+}
+
+/* Estilos de productos */
+.productos {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-/* Estilos para los divs internos */
-.contenido {
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
+.producto {
+    width: calc(33.33% - 60px); /* Ajustamos el ancho para acomodar 3 productos por fila */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    min-height: 300px; /* Ajusta la altura mínima según tus necesidades */
+}
+
+.producto img {
+    max-width: 100%;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.registro-formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
     padding: 10px;
-    margin: 10px;
-    width: 50%;
-    
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
-#lateral{
-    background-color: black;
-    height: 100%;
-    width: 100px;
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
